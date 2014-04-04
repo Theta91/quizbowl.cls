@@ -32,6 +32,8 @@
 % need amsmath package
 \RequirePackage{amsmath}
 \RequirePackage{lineno}
+% space things a little
+\linespread{1.05}
 
 % --- Main Declarations --------------------------------------------------------
 % *** fancyhdr
