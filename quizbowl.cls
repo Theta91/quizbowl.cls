@@ -4,7 +4,7 @@
 % do whatever you want with this.
 
 % --- Identification -----------------------------------------------------------
-\ProvidesClass{quizbowl}[2014/04/03 
+\ProvidesClass{quizbowl}[2014/04/03 Quizbowl]
 
 % --- Options ------------------------------------------------------------------
 \DeclareOption{option}{code}
