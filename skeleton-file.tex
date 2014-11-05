@@ -1,37 +1,23 @@
 \documentclass{quizbowl}
-\usepackage[version=3]{mhchem}
-\tourn{tournament \\ title}
+\tourn{tournament title}
 \tournauthor{list of \\ authors}
 \packet{1}
 
 \begin{document}
 
 \begin{tus}
-  \tu{%
-    \power{tossup} text
-  }{%
-    \bu{answer}
-  }
-
+  \tu{\power{Clues in power}; clues out of power. \ce{CO2} is a chemical formula.}
+     {\bu{required part} of answer [or \bu{required part} of alternate answer]}
 \end{tus}
 
-\begin{bonuses}
-  \bonus{
-    bonus lead-in. For 10 points each:
-  }{%
-    bonus prompt
-  }{%
-    \bu{answer}
-  }{%
-    bonus prompt
-  }{%
-    \bu{answer}
-  }{%
-    bonus prompt
-  }{%
-    \bu{answer}
-  }
-
-\end{bonuses}
+\begin{bons}
+  \bon{Bonus lead-in. For 10 points each:}
+      {First part prompt.}
+      {\bu{first part} answer}
+      {Second part prompt.}
+      {\bu{second part} answer}
+      {Third part prompt.}
+      {\bu{third part} answer}
+\end{bons}
 
 \end{document}
